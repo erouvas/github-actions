@@ -1,13 +1,13 @@
 FROM docker:19.03.2
 
-LABEL version="1.1.0"
+LABEL version="1.2.0"
 LABEL repository="http://github.com/redhat-cop/github-actions"
 LABEL homepage="http://github.com/redhat-cop/github-actions/confbatstest"
 LABEL maintainer="Red Hat CoP"
 LABEL "com.github.actions.name"="confbatstest"
 LABEL "com.github.actions.description"="Run conftest using BATS"
-LABEL "com.github.actions.icon"="package"
-LABEL "com.github.actions.color"="purple"
+LABEL "com.github.actions.branding.icon"="monitor"
+LABEL "com.github.actions.branding.color"="purple"
 
 RUN apk add --update bash git py-pip
 
